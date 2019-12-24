@@ -16,3 +16,8 @@
 </ul>
 </div>
 </template>
+<style lang="stylus">
+ div > ul{
+   line-height:50px;
+ }
+</style>

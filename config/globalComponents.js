@@ -1,4 +1,5 @@
 import InnerGroup from '@/components/InnerGroup'
+import Time from '@/components/Time'
 
 function plugin(Vue)
 {
@@ -7,6 +8,7 @@ function plugin(Vue)
         return;
     }
    Vue.component("InnerGroup",InnerGroup)
+   Vue.component("Time",Time)
 }
 export default plugin
 

@@ -4,10 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import gComponents from '../config/globalComponents'
+import '../config/schedule'
 import $ from 'jquery'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap3/dist/css/bootstrap.min.css'
+import 'bootstrap3/dist/js/bootstrap'
+import gComponents from '../config/globalComponents'
 
 Vue.config.productionTip = false
 Vue.use(gComponents);
